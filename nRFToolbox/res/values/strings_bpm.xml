@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2013 Nordic Semiconductor. All Rights Reserved.
+  
+  The information contained herein is property of Nordic Semiconductor ASA.
+  Terms and conditions of usage are described in detail in NORDIC SEMICONDUCTOR STANDARD SOFTWARE LICENSE AGREEMENT.
+  Licensees are granted free, non-transferable use of the information. NO WARRANTY of ANY KIND is provided. 
+  This heading must NOT be removed from the file.
+-->
+<resources>
+    <string name="bpm_feature_title">BPM</string>
+    
+    <string name="bpm_feature_title_long">BLOOD PRESSURE</string>
+    <dimen name="bpm_feature_title_long_margin">-115dp</dimen>
+    
+    <string name="bpm_section_bp_header">BLOOD PRESSURE</string>
+    <string name="bpm_systolic">SYSTOLIC</string>
+    <string name="bpm_diastolic">DIASTOLIC</string>
+    <string name="bpm_mean_ap">MEAN AP</string>
+    <string name="bpm_unit_mmhg">mmHg</string>
+    <string name="bpm_unit_kpa">kPa</string>
+    
+    <string name="bpm_section_pulse_header">PULSE RATE</string>
+    <string name="bpm_pulse">PULSE</string>
+    <string name="bpm_unit_bpm">bpm</string>
+    
+    <string name="bpm_section_timestamp_header">TIME &amp; DATE</string>
+    <string name="bpm_timestamp">%1$tT %1$te.%1$tm.%1$tY</string>
+    
+    <string name="bpm_default_name">DEFAULT BPM</string>
+    
+    <string name="bpm_about_text">BPM (Blood Pressure Monitor) profile allows you to connect to your Blood Pressure device. 
+        It supports the cuff pressure notifications and displays systolic, diastolic and mean arterial pulse values as well as the pulse after blood pressure reading is completed. 
+        The implementation supports bondable devices.</string>
+</resources>

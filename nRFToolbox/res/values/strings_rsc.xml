@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2013 Nordic Semiconductor. All Rights Reserved.
+  
+  The information contained herein is property of Nordic Semiconductor ASA.
+  Terms and conditions of usage are described in detail in NORDIC SEMICONDUCTOR STANDARD SOFTWARE LICENSE AGREEMENT.
+  Licensees are granted free, non-transferable use of the information. NO WARRANTY of ANY KIND is provided. 
+  This heading must NOT be removed from the file.
+-->
+<resources>
+    <string name="rsc_feature_title">RSC</string>
+    
+    <string name="rsc_feature_title_long">RUNNING SPEED &amp; CADENCE</string>
+    <dimen name="rsc_feature_title_long_margin">-192dp</dimen>
+    
+    <string name="rsc_section_rsc_header">SPEED AND CADENCE</string>
+    <string name="rsc_speed">SPEED</string>
+    <string name="rsc_speed_unit">km/h</string>
+    <string name="rsc_cadence">CADENCE</string>
+    <string name="rsc_cadence_unit">SPM</string>
+    <string name="rsc_distance">DISTANCE</string>
+    <string name="rsc_distance_unit_m">m</string>
+    <string name="rsc_distance_unit_km">km</string>
+    <string name="rsc_section_strides_header"></string>
+    <string name="rsc_total_distance">TOTAL DISTANCE</string>
+    <string name="rsc_total_distance_unit">km</string>
+    <string name="rsc_strides">STEPS</string>
+    
+    <string name="rsc_section_activity_header">ACTIVITY</string>
+    <string name="rsc_walking">WALKING</string>
+    <string name="rsc_running">RUNNING</string>
+    
+    <string name="rsc_default_name">DEFAULT RSC</string>
+    <string name="rsc_notification_action_disconnect">Disconnect</string> 
+    <string name="rsc_notification_connected_message">%s is connected.</string>
+    
+    <string name="rsc_about_text">RSC (Running Speed and Cadence) profile allows you to connect to your activity sensor.
+        \nIt reads speed and cadence values from the sensor and calculates trip distance if stride length is supported. Strides count is calculated basing on the cadence and the time.
+        \nYou may exit the application when connected while still getting notifications.</string>
+</resources>
